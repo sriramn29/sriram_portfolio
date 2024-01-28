@@ -1,0 +1,93 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color:#fff1d2;
+    border-radius: 25px;
+    padding: 10px;
+    justify-content:space-around;
+}
+.navbar a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 35px;
+    width:260px;
+}
+.navbar a:hover {
+    background: red;
+    color: white;
+}
+@media screen and (max-width:1300px){
+    .navbar{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar a{
+        width: 100%;
+    }
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    height: 100%;
+    background-color: orange;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 5%;
+}
+.about img{
+    border-radius: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:0;
+}   
+.about p span{
+    font: 3em sans-serif;
+}
+.about p{
+    margin-top: 17%;
+}
+@media screen and (max-width:900px) {
+    .about{
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    .about img{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 10%;
+        margin-bottom: 0%;
+    }
+    .about p{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+}
+.edu table{
+    table-layout: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+
+}
+.edu th, td{
+    table-layout: auto;
+    border: 3px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+
+}
+.edu th{
+    font-size: 20px;
+}
+.default{
+    background-color: #fff1d2;
+}
